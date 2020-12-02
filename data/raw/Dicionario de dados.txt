@@ -1,0 +1,87 @@
+GENDERPAT_A ---GENERO
+AGEPAT ---IDADE
+SMOKER ---FUMANTE
+ARTERIAL HYPERTENSION ---HIPERTENSÃO ARTERIAL
+DIABETES  STATUS ---DIABETES
+DYSLIPIDEMIA  ---DISLIPIDEMIA (COLESTEROL ALTO)
+CORONARYARTERYDISEASE --Doença arterio coronariana
+    No (sem alteração)
+    Non STEMI (sem Supra do segmento ST --sem alteração no eletro)
+    STEMI (com Supra do segmento ST --alteração no eletro)
+    Stable angina: Angina estável (dor que não passa))
+ACS<> -- Tempo do infarto
+PREVIOUSANGIOPLASTY --Angioplastia previa
+PREVIOUS CARDIAC SURGERY --Cirurgia cardiaca previa
+NUMBER --Quantidade (podem ser vários procedimentos em um só)
+EXTRACARDIAC ARTERIOPATHY --Arteriopatia Extracardiaca (doença da arteria)
+EXTRACARDIAC ARTERIOPATHY_A --mesma coisa 
+PREVIOUS CARDIAC FAILURE -- Parada cardiaca previa
+PREVIOUS ENDOCARDITIS --Endocardite previa (infecção do musculo cardiado)
+PREVIOUSEMBOLICEVENT --Trombo-embolismo (embolia pulmonar, trombose...)
+PREVIOUS STROKE --Derrame previo (Hemorragico, Isquemico, Transitório)
+NEUROLOGIC DYSFUNCTION --Disfunção neurologica
+NEUROLOGIC DYSFUNCTION_A --Disfunção neurologica
+COPD --(DPOC em portugues) Doença pulmonar obstrutiva cronica (tratada, sem tratamento, não)
+COPDEUROSC_A --(DPOC em portugues) Doença pulmonar obstrutiva cronica (1 para tratada, 0 para o resto)
+ULCER --Ulcera
+NEOPLASIA --Cancer (periodo)
+PREVIOUSRADIOTHERAPY --Radioterapia Previa
+CIRRHOSIS --Cirrose
+ON DIALYSIS --Em dialise
+WEIGHT --Peso
+HEIGHT --Altura
+BMI --IMC - Indice Massa Corporal
+CARDIAC RHYTHM --Ritmo cardiac
+    Sinusal (normal)
+    FA ou TSV (arritimias graves)
+NYHACLASS --Classificação de insuficiencia cardiaca (1 a 4)
+ANGORCLASSECCS --Classificação de Angina (dor)(de 0 a 4)
+CARDIACFAILURE --Insuficiência cardíaca
+ACTIVEENDOCARDITIS --Endocardite ativa (Se está ou não com infecção)
+ACTIVEENDOCARDITIS_B --Endocardite ativa (Se está ou não com infecção)
+CRITICALPREOPERATIVESTATE_A --Estado critido no pre operatorio
+CREATININE -- CREATININA
+CLEARANCECOCK -- Clearence de creatinina (avalia a função renal)
+CLEARANCE  -- Clearence de creatinina (avalia a função renal)
+LVEF --Fração de injeção do ventriculo esquerdo (valor)
+PAPSYST --Pressão de arteria pulmonar
+CORONARYARTERYDISEASE --Doença arterio coronariana (sim ou não)
+VALVULOPATHY --Valvulopatia - Doença valvar
+SINGLEVALVULOPATHY --Se é em uma só (tipo)
+POLYVALVULOPATHY --Em multiplas
+TRICUSPID --Na valvula tricuspide
+ETIOLOGY --Etiologia (causa da doença valvar)
+REDO_A - Motivo da RE-operação
+ASCENDINGAORTA --Aneurisma de aorta ascendente (Não, Aneurisma, Aneurisma Dissecante (grave))
+CONGENITALHEARTDISEASE --Se possui Doença cardiaca congenita
+OTHERS --Outras condições
+URGENCY --Urgência
+URGENCY_A --Urgência
+VALVULARSURGERY --Cirurgia valvular
+AORTIC ---Tipo de valvula a ser colocada
+MITRAL ---Tipo de valvula a ser colocada
+TRISCUPID ---Tipo de valvula a ser colocada
+CABG -- (Coronary Artery Bypass Grafting) Se possui revascularização (ponte)
+ASCENDINGAORTASURGERY --Cirurgia na aorta ascendente (Tipo)
+OTHERS --Motivo da Cirurgia da aorta 
+WEIGHTOFPROC --Quantidade de procedimentos na Cirurgia
+INTRAHOSPITALDEATH --Morte intra hospitalar
+D30DEATH --Morte em 30 dias
+redo ---RE-operação (sim ou não)
+RENALIMPAIRMENT --Insuficiência renal
+ua --Aguda
+PULMONARYHYPERTENSION --hipertensão de arteria pulmonar
+lv1 -- Nivel da hipertensão de arteria pulmonar
+lv2 -- Nivel da hipertensão de arteria pulmonar
+SURGERYTHORACICAORTA --Cirurgia aorto toracica
+PROCEDURE --Se fez o procedimento de Cirurgia aorto toracica
+DIABETESONINSULIN --Dependente de insulina
+RECENTMI_A --Infarto do miocárdio recente
+LVEFISOTOPIC --Fração de injeção isotópica
+mi --Se a operação é por Infarto do miocárdio
+SURG -- Se o paciente já passou por algum procedimento (sim ou não)
+delaimi --Pode ter a ver com Infarto do miocárdio (mas não temos certeza)
+
+************--Não fazemos nem do que checar
+aa
+aa2
