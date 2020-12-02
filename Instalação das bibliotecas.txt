@@ -1,0 +1,14 @@
+Instalação das bibliotecas
+
+> Para rodar o profiling é necessário atualizar o ambiente e depois instalar o pandas_profiling do source
+!conda update -n base conda -y
+!pip install https://github.com/pandas-profiling/pandas-profiling/archive/master.zip
+
+> Outra forma de instalação:
+!pip install -U pandas-profiling
+ou
+conda install -c conda-forge pandas-profiling
+
+> Instalação do PyCaret, biblioteca que simplifica a aplicação de regressão e classificação
+!pip install pycaret
+!pip install shap
